@@ -1,0 +1,49 @@
+@import "reboot.css";
+
+body, html {
+height: 100%;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-flow: column;
+}
+.heading {
+  text-align: center;
+}
+
+.chessBoard {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: antiquewhite;
+}
+
+.chessBoard__row {
+
+}
+
+.chessBoard__heading-row {
+
+}
+
+.chessBoard__cell {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+}
+
+.chessBoard__heading-cell {
+  border: none;
+}
+
+.chessBoard__cell_color_black {
+  background-color: black;
+}
+
+.chessBoard__cell_color_white {
+  background-color: white;
+}
